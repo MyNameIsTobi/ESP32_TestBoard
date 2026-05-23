@@ -1,0 +1,27 @@
+# KiCad backups + lock files
+*-backups/
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl
+*.lck
+~*.lck
+fp-info-cache
+
+# KiCad autosave
+_autosave-*
+
+# Build/fab outputs
+gerbers/
+*.gbr
+*.drl
+*.pos
+*.zip
+
+# Editor history
+.history/
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
