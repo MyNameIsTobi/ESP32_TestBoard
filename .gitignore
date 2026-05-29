@@ -17,6 +17,10 @@ gerbers/
 *.pos
 *.zip
 
+# Generated reports (kicad-cli output, regenerate anytime)
+netlist.xml
+erc.txt
+
 # Editor history
 .history/
 .vscode/
